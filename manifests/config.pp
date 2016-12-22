@@ -1,3 +1,9 @@
 class boinc::config {
-  notify { 'I would run configuration here...': }
+
+  user { $boinc::boinc_user:
+    ensure  => 'present',
+    homedir => $boinc::boinc_user_homedir,
+    shell   => '/bin/bash',
+  }
+
 }
