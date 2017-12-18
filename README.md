@@ -1,5 +1,5 @@
 # boinc Puppet
-####Table of Contents
+#### Table of Contents
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
@@ -15,7 +15,7 @@ This module installs, configures, and manages the [BOINC](http://boinc.berkeley.
 ## Setup
 
 ### Beginning with boinc
-`include boinc` should be enough to get you started.  This will install boinc and boinc-mgr on your system with no configuration.  A more useful configruation with a project and account would look like:
+`include boinc` should be enough to get you started.  This will install boinc and boinc-mgr on your system with no configuration.  A more useful configuration with a project and account would look like:
 
 ```puppet
 class { 'boinc':
